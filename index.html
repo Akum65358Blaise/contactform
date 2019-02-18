@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">  
+        <form id="contact" action="POST" method="" onsubmit="return myfunction();" data-netlify="true">
+            
+          <h3>Talk With ZO</h3>
+          <h4>Let us know what your opinion about Software Engineering in Cameroon</h4>
+          <p id="error" style="color:aqua;"></p>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" id="name1" name="name">
+            <p id="name"></p>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" id="email1" name="email" >
+            <p id="email"></p>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" id="phone" name="phone">
+            <p id="tel"></p>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" id="site" name="url">
+            <p id="web"></p>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" id="msg" name="message"></textarea>
+            <p id="mess"></p>
+          </fieldset>
+          <fieldset>
+            <input type="file" tabindex="5" id="file" name="myfile" placeholder="Upload relevant article">
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+          <p class="copyright">Designed by Akum Blaise FET-UB</a></p>
+        </form>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
